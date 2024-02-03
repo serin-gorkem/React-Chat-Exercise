@@ -1,6 +1,5 @@
 import { useState } from "react";
 import ContactList from "./ContactList";
-import "./App.css";
 import Chat from "./Chat";
 
 const contacts = [
