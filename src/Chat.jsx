@@ -1,10 +1,10 @@
-export default function Chat({ contact, handleTextChange, messages }) {
+export default function Chat({ contact, handleTextChange, message }) {
   return (
     <div className="input-area">
       <textarea
         className="text-area"
         placeholder={"Chat to " + contact.name}
-        value={messages[contact.id]}
+        value={message}
         onChange={handleTextChange}
       ></textarea>
       <button key={contact.id} className="personName">
